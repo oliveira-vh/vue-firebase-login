@@ -1,24 +1,28 @@
-# vue-firebase-tutorial
+# vue-firebase-login
 
-## Project setup
+App para implementação de login e criação de usuários com firebase. 
+
+Para rodar esta aplicação é necessário criar um app no console do firebase e adicionar o objeto ```firebaseConfig``` no módulo src/firebaseConfig. Importe-o em src/main.js e inicialize-o com ```firebase.initializeApp(firebaseConfig).```
+
+## Setup
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### Compilar para desenvolvimento
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
+### Compilar e minificar para produção
 ```
 npm run build
 ```
+Nota: siga as instruções recomendadas para produção!
 
-### Lints and fixes files
+### Lint
 ```
 npm run lint
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+
