@@ -1,6 +1,6 @@
 # vue-firebase-login
 
-App para implementação de login e criação de usuários com firebase. 
+App de estudo para implementação de login e criação de usuários com firebase. 
 
 Para rodar esta aplicação é necessário criar um app no console do firebase e adicionar o objeto ```firebaseConfig``` no módulo src/firebaseConfig. Importe-o em src/main.js e inicialize-o com ```firebase.initializeApp(firebaseConfig).```
 
